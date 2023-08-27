@@ -10,3 +10,4 @@ Rspec.describe "AdminArticlesPreview", type: :system do
         visit admin_artcles_path
         click_link '新規作成'
         visit admin_artcles
+        ddd
