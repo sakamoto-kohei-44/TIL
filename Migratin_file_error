@@ -3,3 +3,4 @@ rails db:migrate:statusで確認
 rails db:migrate:down VERSION=20230830073119のようにdownさせてrm db/migrate/20230830073119_remove_eyecatch_position_from_articles.rbのように削除し再作成
 上記でいけると思ったけどファイルが消えてもデータは残ってるみたい。
 rails db:rollbackさせてファイルをカラムを追加しないように編集しrails db:migrateで解決
+up状態down状態か確認すべき
